@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/drsylent/cubix/cloudnative6/db
+  repository: ghcr.io/redwing71/cubix/cloudnative6/db
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
@@ -10,7 +10,7 @@ env:
 - name: SPRING_DATASOURCE_USERNAME
   value: user
 - name: SPRING_DATASOURCE_PASSWORD
-  #value: <<SET WITH INSTALLATION>>
+  value: password
 
 ingress:
   enabled: false
